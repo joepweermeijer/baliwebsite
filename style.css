@@ -1,0 +1,170 @@
+* {
+    font-family: 'Cuprum', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #7DA292;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Header styling */
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: none;
+}
+
+h1 {
+    position: absolute;
+    padding: 12px;
+    float: left;
+    margin-left: 3%;
+    margin-top: 10px;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 1.5em;
+}
+
+h1:hover {
+    color: #ffffff;
+    transition: .5s;
+}
+
+ul {
+    width: auto;
+    float: right;
+    margin-top: 12px;
+    margin-right: 30px;
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+}
+
+a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 1.5em;
+}
+
+a:hover {
+    color: #ffffff;
+    transition: .5s;
+}
+
+/* Main page styling */
+
+h2 {
+    color:black;
+    font-size: 2em;
+}
+
+p {
+    color: black;
+    font-size: 1.5em;
+}
+
+section {
+    display: flex;
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+    border: 20px;
+    border-radius: 15px;
+    margin: 35px 64px 35px 64px;
+}
+
+p a:nth-child(1) {
+    font-size: 1em;
+    color: teal;
+}
+
+p a:nth-child(1):active { 
+    color: tomato;
+}
+
+p a:nth-child(2) {
+    font-size: 1em;
+    color: teal;
+}
+
+p a:nth-child(2):focus-within {
+    color: tomato;
+}
+
+p a:nth-child(3) {
+    font-size: 1em;
+    color: teal;
+}
+
+p a:nth-child(3):focus-within {
+    color: tomato;
+}
+
+figure {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+img { 
+    width: 350px;
+    height: 350px;
+    padding: 12px;
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 25px; 
+}
+
+footer {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    padding-right: 20px;
+    font-size: .8em;
+}
+
+h3 {
+    font-size: 2em;
+    color: #345B4E;
+}
+
+.reisjunk {
+    font-size: 1em;
+}
+
+.food-link {
+    font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
